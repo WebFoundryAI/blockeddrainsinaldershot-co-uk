@@ -49,7 +49,7 @@ const faqPageSchema = hubContent ? getFAQSchema(faqs) : undefined;
 const googleMapsApiKey = import.meta.env.GOOGLE_MAPS_API_KEY;
 ---
 
-<BaseLayout title={title} description={description} canonical={`/locations/${location.slug}/`} schema={pageSchema}>
+<BaseLayout title={title} description={description} canonical={`/locations/${location.slug}/`} schema={pageSchema} noindex={!!location.noindex}>
   <!-- BreadcrumbList Schema -->
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
   <!-- FAQ Page Schema (if available) -->
