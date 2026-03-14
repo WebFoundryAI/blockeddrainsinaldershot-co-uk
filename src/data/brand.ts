@@ -1,8 +1,8 @@
 export const BRAND = {
   brandName: "Blocked Drains in Aldershot",
   domain: "blockeddrainsinaldershot.co.uk",
-  primaryLocation: "Manchester",
-  serviceAreaLabel: "Manchester and surrounding areas",
+  primaryLocation: "Aldershot",
+  serviceAreaLabel: "Aldershot and surrounding areas",
   phone: "08003077008",
   phoneFormatted: "0800 30 77 008",
   email: "info@blockeddrainsinaldershot.co.uk",
