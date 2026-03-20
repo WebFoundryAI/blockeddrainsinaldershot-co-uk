@@ -37,7 +37,7 @@ function interpolate(text: string): string {
   return interpolateLocationText(text, location!.name, locationData, content);
 }
 
-const title = `${service.name} ${location.name} | Fast Response | No Call-Out Fee`;
+const title = `${service.name} ${location.name} | No Call-Out Fee`;
 const description = `${service.shortLabel} in ${location.name}. No call-out fee, fixed pricing, 24/7 availability. Call ${BRAND.phoneFormatted} for fast local support.`;
 const pageSchema = [
   ...getLocationServicePageSchema(location, service),

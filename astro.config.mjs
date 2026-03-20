@@ -10,7 +10,7 @@ export default defineConfig({
   ],
   output: 'static',
   build: {
-    format: 'directory',
+    format: 'file',
   },
   trailingSlash: 'never',
 });
