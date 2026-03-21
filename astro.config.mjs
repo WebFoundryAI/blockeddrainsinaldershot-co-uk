@@ -9,8 +9,5 @@ export default defineConfig({
     tailwind(),
   ],
   output: 'static',
-  build: {
-    format: 'file',
-  },
-  trailingSlash: 'never',
+  trailingSlash: 'always',
 });
