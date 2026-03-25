@@ -9,5 +9,6 @@ export default defineConfig({
     tailwind(),
   ],
   output: 'static',
+  compressHTML: true,
   trailingSlash: 'always',
 });
